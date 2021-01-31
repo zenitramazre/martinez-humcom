@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Table Example</title>
+    </head>
+<body>
+<h3>Simple Table: Width, Border, Background </h3>
+<table width='300px' border='2pt' bgcolor='lightblue'align='center' >
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+    </thead>  
+    <tbody>
+        <tr>
+            <td bgcolor='white'>Pedro</td>
+            <td bgcolor='white'>Santiago</td>
+            <td bgcolor='white'>50</td>
+        </tr>
+        <tr>
+            <td>Eva</td>
+            <td>Sales</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <caption><i>This is a table caption</i></caption>
+        </tr>
+    </tbody>  
+</table>
+
+<h3>Row and Colspan</h3>
+<table width='300px' border='2pt' >
+    <thead>
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+        </tr>
+    </thead>  
+    <tbody>
+        <tr>
+            <td colspan='2'>1</td>
+            <!-- <td>2</td> -->
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td rowspan='2'>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <!-- <td>8</td> -->
+            <td>9</td>
+        </tr>
+    </tbody>  
+</table>
+
+<h3>Cell Padding and Spacing</h3>
+<table width='300px' border='2pt' cellpadding='10px' cellspacing='10px'>
+    <thead>
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+        </tr>
+    </thead>  
+    <tbody>
+        <tr>
+            <td >1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </tbody>  
+</table>
+</body>
