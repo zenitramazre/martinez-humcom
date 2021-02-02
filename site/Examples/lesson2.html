@@ -4,17 +4,21 @@
         <title>Lesson1-Basic Elements</title>
         <meta name="author" content="E.Martinez">
     </head>
-    <body>
-        <h1>Level 1 Heading</h1>
+    <body background="../assets/imgs/email-pattern.webp">
+        <font face="Courier New">
+            <h1>Level 1 Heading</h1>
+        
         <h2>Level 2 Heading</h2>
         <h3>Level 3 Heading</h3>
         <h4>Level 4 Heading</h4>
         <h5>Level 5 Heading</h5>
         <h6>Level 6 Heading</h6>
-
+    <font face='Verdana'  color='#1A5276'  size='4pt'  > 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt iaculis dapibus. Morbi nec lorem aliquet, pulvinar lectus ut, sollicitudin dolor. Curabitur luctus nisi tellus, vitae lobortis dui aliquam eget. Cras volutpat velit et turpis lacinia, eu suscipit metus dapibus. Nullam leo elit, venenatis et malesuada ac, sodales a ante. Donec dignissim hendrerit elit, sit amet aliquam ligula. Nulla ipsum velit, interdum sed sapien vitae, fermentum ultrices magna. Nunc accumsan at nibh sit amet pellentesque. Fusce placerat elit id nisi tincidunt, id condimentum metus congue. Nunc in rutrum nibh. Donec nec risus sed nunc iaculis tincidunt at sit amet ex. Suspendisse consequat in nulla eu eleifend. Sed vestibulum facilisis nisl, vel vehicula elit tempus ac. Aliquam erat volutpat. Quisque blandit ut lacus luctus feugiat.</p>
-
+    </font>
+    <font color='red'>
         <h2>Ordered List Examples</h2>
+    </font>
         <h3>Example 1</h3>
         <ol>
             <li>item 1</li>
@@ -58,12 +62,36 @@
             <li>item 3</li> 
         </ul>
 
-        <h3>Example 2</h3>
+        <h3>Example 3</h3>
         <ul type='square'>
             <li>item 1</li>
             <li>item 2</li>
             <li>item 3</li> 
         </ul>
-
+        <!--this is an example of a nested lists-->
+        <h3>Nested List Example</h3>
+        <ol type='I'>
+            <li>Lesson 1 Topics</li>
+            <ol type='a'>
+                <li>Intro to HTML</li>
+                <li>HTML Elements-Basic Tags</li>
+                <ul>
+                    <li>Lists</li>
+                    <li>Tables</li>
+                    <li>Links</li>
+                </ul>
+            </ol><!-- close inner list-->
+            <li>Lesson 2 Topics</li>
+            <li>Lesson 3 Topics</li>
+        </ol>
+        <!-- this is an example of a definitions list-->
+        <center><h3><u>Definitions <i>List</i></u></h3></center>
+        <dl>
+            <dt><strong>HTML</strong></dt>
+                <dd><i>Hypertext Markup Language</i></dd>
+            <dt><b>CSS</b></dt>
+                <dd><em>Cascading Stylesheets</em></dd>
+        </dl>
+    </font>
     </body>
 </html>
