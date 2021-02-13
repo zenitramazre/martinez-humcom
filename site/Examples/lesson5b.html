@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table 3 Sample</title>
+        <meta charset="utf-8">
+        <meta name="author" content="E.martinez">
+    </head>
+    <body>
+    <h3>Table 3 Sample: Rowspan</h3>
+    <table width="300px" border="2px">
+        <thead>
+            <tr>
+                <th width="100px">A</th>
+                <th width="100px">B</th>
+                <th width="100px">C</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><!-- this is the 2nd row-->
+                <td rowspan="2">R2A and R3A</td>
+                <td>R2B</td>
+                <td rowspan="3">R2C, R3C, and R4C</td>
+            </tr>
+            <tr><!-- this is the 3rd row-->
+                <!-- <td>R3A</td> -->
+                <td>R3B</td>
+                <!-- <td>R3C</td> -->
+            </tr>
+            <tr><!-- this is the 4th row-->
+                <td>R4A</td>
+                <td>R4B</td>
+                <!-- <td>R4C</td> -->
+            </tr>
+        </tbody>
+    </table>
+        
+    </body>
+</html>

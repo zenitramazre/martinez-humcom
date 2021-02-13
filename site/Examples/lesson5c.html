@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Sample</title>
+        <meta charset="utf-8">
+        <meta name="author" content="E.martinez">
+    </head>
+    <body>
+    <h3>Sample Table - Colspan</h3>
+    <table width="500px" 
+           height="550px"
+           border="2px" 
+           frame="void" 
+           background="..\assets\imgs\photography.webp">
+        <thead>
+            <tr height="150px">
+                <th width="33.33%">A</th>
+                <th width="33.33%">B</th>
+                <th width="33.33%">C</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><!-- this is the 2nd row-->
+                <td align="center">R2A</td>
+                <td colspan="2" bgcolor="#ffbf00">R2B and R2C</td>
+                <!-- <td>R2C</td> -->
+            </tr>
+            <tr>
+                <td>R3A</td>
+                <td>R3B</td>
+                <td>R3C</td>
+            </tr>
+            <tr><!-- this is the 4th row -->
+                <td colspan="3" bgcolor="#bfff00">R4A , R4B, and R4C</td>
+                <!-- <td>R4B</td>
+                <td>R4C</td> -->
+            </tr>
+            <tr>
+                <caption>COLSPAN attribute Example</caption>
+            </tr>
+        </tbody>
+    </table>
+    </body>
+</html>
